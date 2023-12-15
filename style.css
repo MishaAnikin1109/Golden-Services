@@ -1,0 +1,83 @@
+:root {
+    --logo-color: #FED136;
+    --title-color: #222222;
+    --text-color: #777777;
+    --title2-color: #FFFFFF;
+    --input-color: #CCCCCC;
+    --input0-color: #BBBBBB;
+}
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+.header-logo {
+    font-family: 'Bilbo Swash Caps';
+    color: var(--logo-color);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+}
+.header-link {
+    text-decoration: none;
+    color: var(--logo-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 41px;
+}
+.services-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+}
+.services-title2 {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 75px;
+}
+.services-text {
+    font-family: 'Roboto Slab';
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+.contact_us {
+    background-color: var(--title-color);
+}
+.contact_us-title {
+    color: var(--title2-color);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.76px;
+    text-align: center;
+}
+.contact_us-input {
+    color: var(--input0-color);
+    background-color: var(--input-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 457px;
+    height: 53px;
+}
+.contact_us-textarea {
+    color: var(--input0-color);
+    background-color: var(--input-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 458px;
+    height: 212px;
+}
+.contact_us-button {
+    color: var(--title2-color);
+    background-color: var(--logo-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 242px;
+    height: 68px;
+    text-align: center;
+}
